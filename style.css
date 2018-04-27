@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?wbd0y6');
+  src:  url('../fonts/icomoon.eot?wbd0y6#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?wbd0y6') format('truetype'),
+    url('../fonts/icomoon.woff?wbd0y6') format('woff'),
+    url('../fonts/icomoon.svg?wbd0y6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fq-redmine:before {
+  content: "\e901";
+}
+.fq-gmail:before {
+  content: "\e902";
+}
+.fq-notes:before {
+  content: "\e900";
+}
