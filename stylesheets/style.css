@@ -24,12 +24,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-fq-redmine:before {
+.fq-redmine:before {
   content: "\e901";
 }
-.icon-fq-gmail:before {
+.fq-gmail:before {
   content: "\e902";
 }
-.icon-fq-notes:before {
+.fq-notes:before {
   content: "\e900";
 }
